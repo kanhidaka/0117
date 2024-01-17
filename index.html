@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="kan_hidakaのプロフィールサイトです" />
+  <title>MyProfile</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- ナビゲーションメニュー -->
+  <header>
+    <nav>
+      <div>
+        <a href="index.html" class="home">My Profile</a>
+      </div>
+      <div class="menu">
+        <a href="#about">About</a>
+        <a href="#works">Works</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <!-- メイン画像 -->
+      <div>
+        <img src="image/main.jpg" alt="海背景画像" class="mainpic">
+      </div>
+
+      <!-- About -->
+      <h1 id="about">About</h1>
+      <section class="about">
+        <img src="image/about.png" alt="kan_hidaka" class="circle">
+        <div class="content">
+          <p class="name">Kan Hidaka</p>
+          <ul>
+            <li>23歳 東京都板橋区出身</li>
+            <li>以前は建設機械の販売・レンタル等の営業に従事</li>
+            <li>趣味はテニス、お菓子作り、ドライブ</li>
+            <li>身体を動かすことが好きで、テニスクラブに所属している</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Works -->
+      <h1 id="works">Works</h1>
+      <section class="works">
+        <div class="item">
+          <img src="image/works1.jpg" alt="前職">
+          <p>前職の建設機械についての営業。10種類ほどの資格を取得</p>
+        </div>
+
+        <!-- 左右に隙間を開けるために、"item_center"クラスを付与 -->
+        <div class="item item_center">
+          <img src="image/works2.jpg" alt="ドライブ">
+          <p>趣味のドライブ、愛車はスイフトスポーツ</p>
+        </div>
+
+        <div class="item">
+            <a href="./socialtech/index.html">
+          <img src="image/works3.jpg" alt="勉強">
+            </a>>
+          
+          <p>侍エンジニア塾にて私が作成したサイト</p>
+        </div>
+      </section>
+    </article>
+  </main>
+  <!-- フッター -->
+  <footer>
+    <p>&copy; MyProfile. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
